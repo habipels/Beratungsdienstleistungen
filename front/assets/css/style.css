@@ -10,8 +10,12 @@
 .navbar{
     background-color: #E8630A !important;
 }
+.carousel{
+    margin-top: 1% !important;
+    margin-bottom: 1% !important;
+}
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
