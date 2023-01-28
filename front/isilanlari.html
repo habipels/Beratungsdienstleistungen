@@ -75,44 +75,68 @@
         </div>
     </nav>
     <!--header-->
-    <!-- Carousel -->
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-        <!-- Indicators/dots -->
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-        </div>
-
-        <!-- The slideshow/carousel -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://www.wareyazilim.com/banner/WhatsApp_Image_2023-01-14_at_02.30.32.jpeg"
-                    alt="Los Angeles" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-                <img src="https://www.wareyazilim.com/banner/WhatsApp_Image_2023-01-14_at_02.29.00.jpeg" alt="Chicago"
-                    class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-                <img src="https://www.wareyazilim.com/banner/www.wareyazilim.com.jpg" alt="New York"
-                    class="d-block w-100">
-            </div>
-        </div>
-
-        <!-- Left and right controls/icons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
-    </div>
-    <!-- Carousel -->
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore atque tempore odio, natus perspiciatis ducimus pariatur nisi esse asperiores iure molestias doloribus nesciunt delectus eaque, reiciendis accusantium deserunt suscipit perferendis ullam? Vitae ea quaerat cum itaque eligendi numquam earum et illo, mollitia quas. Dignissimos delectus ducimus incidunt voluptatum quod necessitatibus magni culpa porro saepe nulla distinctio eos ea nemo deserunt nesciunt laboriosam voluptates neque, minima beatae suscipit adipisci eaque reiciendis? Fugiat facere, animi similique ratione obcaecati odio assumenda quidem dolores quibusdam minus minima velit suscipit facilis asperiores amet! Incidunt quisquam nisi quo eos quam nostrum voluptates neque numquam eveniet magni! Soluta velit amet officiis eius reprehenderit aut eaque fugiat nesciunt molestias saepe voluptatum quibusdam aliquam, unde praesentium! Laboriosam quibusdam nam reiciendis natus accusamus et, quidem est ex exercitationem quasi iste mollitia voluptas animi quaerat ea assumenda, sint, numquam dolores. Repellendus doloremque excepturi numquam unde incidunt magnam, tenetur minima accusamus provident?</p>
+            <div class="col-lg-4 col-md-5 col-12">
+                <div class="vertical-card-div filtre" style="position: -webkit-sticky; position: sticky; top: 10%;">
+                    <label for="kategori" class="form-label">Aradığınız uzmanlık</label>
+                    <select class="form-select" id="kategori">
+                        <option selected>Tümü</option>
+                        <option value="1">Grafik tasarım uzmanı</option>
+                        <option value="2">Yazılım uzmanı</option>
+                        <option value="3">Kameraman</option>
+                        <option value="3">Video editörü</option>
+                        <option value="3">Metinsel içerik üretici</option>
+                        <option value="3">Sosyal medya uzmanı</option>
+                        <option value="3">Satış ve pazarlama uzmanı</option>
+                        <option value="3">Dijital pazarlama uzmanı</option>
+                        <option value="3">3D Tasarımcı</option>
+                        <option value="3">Siber güvenlik uzmanı</option>
+                        <option value="3">Video içerik üretici</option>
+                        <option value="3">Video içerik üretici</option>
+                        <option value="3">Fotoğrafçı</option>
+                        <option value="3">Eğitmen</option>
+                    </select>
+
+                    <br>
+
+                    <label for="lokasyon" class="form-label">Uzmanın lokasyonu</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" aria-describedby="button-addon2" value="Farketmez">
+                    </div>
+
+                    <div class="btn w-100" style="background-color:#E8630A; color: white;"><b>ARA</b></div>
+                </div>
+            </div>
+            <!--**filtre**-->
+
+
+            <div class="col-lg-8 col-md-7 col-12">
+                
+
+                <!--ilanlar-->
+                <div class="card">
+                    <h6 class="card-header">Şirketmiz İçin Kaynakçı
+                    </h6>
+                    <div class="card-body py-1">
+                        <div class="row">
+                            <div class="col-12 col-lg-2 text-center"><img src="https://wareyazilim.com/static/icon.png" class="kategori-img">
+                            </div>
+                            <div class="col-12 col-lg-10">
+                                <p class="card-text">
+                                    Şirketimiz için kaynakçı arıyoruz
+                                </p>
+                                <small class="card-text"><span class="detay">109 Başvuru | Son Başvuru 25.11.2023 
+                                        | </span> 
+                                </small>
+                                <a href="ilan-detay.php" class="btn btn-sm apply-button btn-outline-primary">İncele</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--**ilanlar**-->
+            </div>
         </div>
     </div>
     <!--footer-->
